@@ -8,12 +8,12 @@ SET KAFKA ENV :
 START ENV : 
 START ZOOKEEPER : 
 
-    `bin/zookeeper-server-start.sh config/zookeeper.properties`
+    bin/zookeeper-server-start.sh config/zookeeper.properties
     
 START KAFKA BROKER :
 
 
-    'bin/kafka-server-start.sh config/server.properties'
+    bin/kafka-server-start.sh config/server.properties
     
     
 AND MORE :
